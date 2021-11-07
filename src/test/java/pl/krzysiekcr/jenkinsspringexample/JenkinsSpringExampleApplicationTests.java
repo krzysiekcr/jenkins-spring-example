@@ -24,6 +24,6 @@ class JenkinsSpringExampleApplicationTests {
                 // print performed action
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello world!"));
+                .andExpect(content().string("Incorrect hello world!"));
     }
 }
