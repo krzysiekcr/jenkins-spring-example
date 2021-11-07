@@ -21,7 +21,7 @@ pipeline {
 
         stage ('Deploy.') {
             steps {
-                sh 'gradle clean deployHeroku'
+                sh 'gradle deployHeroku'
             }
         }
     }
