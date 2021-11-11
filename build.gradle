@@ -24,7 +24,4 @@ test {
 
 heroku {
     appName = "jenkins-spring-example-kcr"
-//    processTypes(
-//            web: "java -jar -Dserver.port= build/libs/${rootProject.name}.jar"
-//    )
 }
