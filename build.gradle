@@ -9,6 +9,8 @@ group = 'pl.krzysiekcr'
 version = '0.0.1'
 sourceCompatibility = '9'
 
+buildDir = 'target/'
+
 repositories {
     mavenCentral()
 }
