@@ -1,5 +1,6 @@
 HELP.md
 .gradle
+!build
 build/*
 !build/libs/jenkins-spring-example-0.0.1.jar
 !gradle/wrapper/gradle-wrapper.jar
